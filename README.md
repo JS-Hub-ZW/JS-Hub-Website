@@ -23,4 +23,6 @@ Bootstrap
 JavaScript
 
 Team:
-Nabel03
+Panashe Banhire (Nabel03)
+Tanyah
+Dante Midzi (Psypher1)

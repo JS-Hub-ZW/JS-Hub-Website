@@ -1,0 +1,37 @@
+@import "https://unpkg.com/open-props";
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    font-size: var(--font-size-fluid-2);
+    color: var(--violet-7)
+}
+
+nav{
+    background-color: var(--violet-7);
+    color: var(--violet-1);
+    padding:var(--size-fluid-1);
+    font-size: 1rem;
+}
+
+main{
+    padding: var(--size-fluid-3);
+}
+
+.grid{
+    display: grid;
+    /* place-items: center; */
+    gap:2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card {
+    border-radius: var(--radius-2);
+    padding: var(--size-fluid-3);
+    box-shadow: var(--shadow-2);
+}
+
