@@ -13,7 +13,7 @@ Pages:
 Home
 Portfolio
 Team 
-Blog
+Blog (Done)
 About
 
 TechStack:
@@ -21,6 +21,7 @@ Html
 CSS 
 Bootstrap
 JavaScript
+Open Props
 
 Team:
 Panashe Banhire (Nabel03)

@@ -1,103 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>The team</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link
-        rel="stylesheet"
-        href="./assets/bootstrap/css/bootstrap.min.css?h=bd96651f92c5a991bc4d1a20c9ec73d2"
-        />
-        <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
-        />
-        <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
-        />
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
-    </head>
-    <body>
-        <!-- Header -->
-        <header>
-            <h1>Hello World!</h1>
-            <p>Meet the amazing team</p>
-        </header>
-        <main class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="rounded" src="dev1.png" alt="John Doe">
-                        <div class="card-body">
-                            <h4 class="card-title">Emmanuel Maunga</h4>
-                            <p class="card-text">Lorem ipsum. Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="small opacity-50">@johndoe</a>
-                            <a class="small opacity-50">@johndoe</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="rounded" src="dev1.png" alt="John Doe">
-                        <div class="card-body">
-                            <h4 class="card-title">Panashe Banhire</h4>
-                            <p class="card-text">Lorem ipsum. Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="small opacity-50">@johndoe</a>
-                            <a class="small opacity-50">@johndoe</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="rounded" src="dev1.png" alt="John Doe">
-                        <div class="card-body">
-                            <h4 class="card-title">Dante</h4>
-                            <p class="card-text">Lorem ipsum. Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="small opacity-50">@johndoe</a>
-                            <a class="small opacity-50">@johndoe</a>
-                        </div>
-                    </div>
-                </div>
+  <head>
+    <title>The team</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/css/bootstrap.min.css?h=bd96651f92c5a991bc4d1a20c9ec73d2"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">JS Hub</a
+        ><button
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          class="navbar-toggler"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/portfolio.html">Portfolio</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="/blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header
+      class="masthead"
+      style="
+        background-image: url('/assets/img/home-bg.jpg?h=ed6236475a1226b743bf65e6f1bebb34');
+      "
+    >
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto position-relative">
+            <div class="site-heading">
+              <h1>Hello world!</h1>
+              <span class="subheading">Meet the amazing team&nbsp;</span>
             </div>
-        </main>
-        <footer>
-            <div class="container">
-              <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto">
-                  <ul class="list-inline text-center">
-                    <li class="list-inline-item">
-                      <span class="fa-stack fa-lg"
-                        ><i class="fa fa-circle fa-stack-2x"></i
-                        ><i class="fa fa-twitter fa-stack-1x fa-inverse"></i
-                      ></span>
-                    </li>
-                    <li class="list-inline-item">
-                      <span class="fa-stack fa-lg"
-                        ><i class="fa fa-circle fa-stack-2x"></i
-                        ><i class="fa fa-facebook fa-stack-1x fa-inverse"></i
-                      ></span>
-                    </li>
-                    <li class="list-inline-item">
-                      <span class="fa-stack fa-lg"
-                        ><i class="fa fa-circle fa-stack-2x"></i
-                        ><i class="fa fa-github fa-stack-1x fa-inverse"></i
-                      ></span>
-                    </li>
-                  </ul>
-                  <p class="text-muted copyright">Copyright&nbsp;©&nbsp;JS Hub 2022</p>
-                </div>
-              </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+    <header class="text-center">
+    </header>
+
+    <main class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card profile-card">
+            <center>
+              <img src="dev1.png" alt="John Doe" />
+            </center>
+            <div class="card-body">
+              <h4 class="card-title">Emmanuel Maunga</h4>
+              <p class="card-text small-text">
+                Lorem ipsum. Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem
+                ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem ipsum.Lorem
+                ipsum.Lorem ipsum.
+              </p>
             </div>
-          </footer>
-    </body>
+            <div class="card-footer">
+              <a class="small opacity-50">@johndoe</a>
+              <a class="small opacity-50">@johndoe</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card profile-card">
+            <center>
+              <img src="./assets/img/post-sample-image.jpg" alt="John Doe" />
+            </center>
+            <div class="card-body">
+              <h4 class="card-title">Panashe Banhire</h4>
+              <p class="card-text small-text">
+               Computer Engineer:
+                (Hardware Systems | Embedded Systems | Network Security)<br>
+                Front-End Developer: ( ReactNative | JavaScript | ElectronJS |
+                Bootstrap | WordPress | UX/UI Design)<br>
+                Entrepreneur. CEO of
+                type-Store UK. Founder at UGT. A Tech lover whose goal is to help make the world
+                a better place via imparting skills and creating opportunities
+                for everyone.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a class="small-text" href="https://panban.netlify.app">Website</a>
+              <a class="small-text" href="https://www.github.com/nabel03">Github</a>
+              <a class="small-text" href="https://www.linkedin.com/in/panashe03">Linkedin</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card profile-card">
+            <center>
+              <img src="dev1.png" alt="John Doe" />
+            </center>
+            <div class="card-body">
+              <h4 class="card-title">Panashe Banhire</h4>
+              <p class="card-text small-text">
+               Computer Engineer:
+                (Hardware Systems | Embedded Systems | Network Security)<br>
+                Front-End Developer: ( ReactNative | JavaScript | ElectronJS |
+                Bootstrap | WordPress | UX/UI Design)<br>
+                Entrepreneur. CEO of
+                type-Store UK. Founder at UGT. A Tech lover whose goal is to help make the world
+                a better place via imparting skills and creating opportunities
+                for everyone.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a class="small-text" href="https://panban.netlify.app">Website</a>
+              <a class="small-text" href="https://www.github.com/nabel03">Github</a>
+              <a class="small-text" href="https://www.linkedin.com/in/panashe03">Linkedin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <span class="fa-stack fa-lg"
+                  ><i class="fa fa-circle fa-stack-2x"></i
+                  ><i class="fa fa-twitter fa-stack-1x fa-inverse"></i
+                ></span>
+              </li>
+              <li class="list-inline-item">
+                <span class="fa-stack fa-lg"
+                  ><i class="fa fa-circle fa-stack-2x"></i
+                  ><i class="fa fa-facebook fa-stack-1x fa-inverse"></i
+                ></span>
+              </li>
+              <li class="list-inline-item">
+                <span class="fa-stack fa-lg"
+                  ><i class="fa fa-circle fa-stack-2x"></i
+                  ><i class="fa fa-github fa-stack-1x fa-inverse"></i
+                ></span>
+              </li>
+            </ul>
+            <p class="text-muted copyright">
+              Copyright&nbsp;©&nbsp;JS Hub 2022
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

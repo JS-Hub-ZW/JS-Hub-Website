@@ -5,3 +5,17 @@ nav{
 #test {
 background-color: blue !important;
 }
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.profile-card {
+    height: 320px;
+}
