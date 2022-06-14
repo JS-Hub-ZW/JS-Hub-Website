@@ -13,9 +13,13 @@ img {
 }
 
 .small-text {
-    font-size: 12px;
+    font-size: 1rem;
 }
 
 .profile-card {
     height: 320px;
+}
+#moon {
+background-image: url(./assets/img/code-bg.jpg);
+background-size: cover;
 }
